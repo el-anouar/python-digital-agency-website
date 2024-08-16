@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" 
+viewBox="0 0 1280 720" xml:space="preserve"><!-- Generator: WPGraphicator version: 1.5.1 -->
+<style type="text/css">
+.wpgraphicator-polyline-jt1pupag8q92faxrn95y path {
+    animation-name: wpgraphicator-polyline-jt1pupag8q92faxrn95y;
+    animation-delay: 0s;
+    animation-duration: 3.03s;
+    animation-iteration-count: infinite;animation-fill-mode: both;
+    }
+    @keyframes wpgraphicator-polyline-jt1pupag8q92faxrn95y{
+        0% {
+            animation-timing-function:linear;
+            d:path("M 0 0 L 654.07 0");
+            animation-timing-function:linear;
+            d:path("M 0 0 L 654.07 0");
+        }
+        100% {
+            animation-timing-function:linear;
+            d:path("M 0 0 L 654.07 100");
+            animation-timing-function:linear;
+            d:path("M 0 0 L 654.07 100");
+        }
+    }
+</style>
+<g class="wpgraphicator-polyline-jt1pupag8q92faxrn95y-top" style="transform:translateY(319.83px)">
+<g class="wpgraphicator-polyline-jt1pupag8q92faxrn95y-left" style="transform:translateX(585.18px)">
+<g class="wpgraphicator-polyline-jt1pupag8q92faxrn95y-angle" style="transform:rotate(0deg)">
+<g class="wpgraphicator-polyline-jt1pupag8q92faxrn95y-scaleY" style="transform:scaleY(1)">
+<g class="wpgraphicator-polyline-jt1pupag8q92faxrn95y-scaleX" style="transform:scaleX(1)">
+<g class="wpgraphicator-polyline-jt1pupag8q92faxrn95y-skewY" style="transform:skewY(0deg)">
+<g class="wpgraphicator-polyline-jt1pupag8q92faxrn95y-skewX" style="transform:skewX(0deg)">
+<g class="wpgraphicator-polyline-jt1pupag8q92faxrn95y">
+<path stroke="#000000" stroke-opacity="1" stroke-width="2" stroke-dasharray="none" 
+stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" 
+fill="rgb(0,0,0)" fill-opacity="0" fill-rule="nonzero" opacity="1" transform=" translate(-327.035, 0)" 
+d="M 0 0 L 654.07 0">
+</path>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

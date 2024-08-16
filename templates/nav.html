@@ -1,0 +1,49 @@
+<div class="navbarDesktopHolder {% if request.resolver_match.url_name != 'home' %} scrolled{% endif %}">
+    <div class="navDesktop1 {% if request.resolver_match.url_name != 'home' %} scrolled{% endif %}">
+        <ul class="navDesktopList">
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/aboutUs">About us</a></li>
+        </ul>
+    </div>
+    <div class="navDesktopLogo {% if request.resolver_match.url_name != 'home' %} scrolled{% endif %}">
+        <a href="/">Pixels</a>
+    </div>
+    <div class="navDesktop2 {% if request.resolver_match.url_name != 'home' %} scrolled{% endif %}">
+        <a href="/contactUs" class="contactUsButton">
+            Contact us
+        </a>
+        <div class="navDeskTopDLMod LDMode">
+            <div class="navDeskTopDLModOuter">
+                <div class="navDeskTopDLModInner">
+                    <i class="fa-regular fa-sun navDeskTopDLModOuterIcon inner"></i>
+                </div>
+                <i class="fa-regular fa-moon navDeskTopDLModOuterIcon outer"></i>
+            </div>
+        </div>
+        <div class="hamburger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+<div class="navMobile">
+    <div class="navMobileLogo">
+        <a href="/">Pixels</a>
+    </div>
+    <div class="navMobileListHolder">
+        <ul class="navMobileList">
+            <li class="navMobileListItem"><a class="active" href="/">Home</a></li>
+            <li class="navMobileListItem"><a href="/blog">Blog</a></li>
+            <li class="navMobileListItem"><a href="/aboutUs">About us</a></li>
+            <li class="navMobileListItem"><a href="/contactUs">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="navMobileDLMod LDMode">
+        <div class="navMobileDLModOuter">
+            <div class="navMobileDLModInner">
+                <i class="fa-regular fa-sun navMobileDLModOuterIcon inner"></i>
+            </div>
+            <i class="fa-regular fa-moon navMobileDLModOuterIcon outer"></i>
+        </div>
+    </div>
+</div>

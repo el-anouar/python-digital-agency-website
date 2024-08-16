@@ -1,0 +1,566 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="hero">
+    <div class="slider">
+        <img class="active"
+            src="https://img.freepik.com/free-photo/glowing-neon-stripes-futuristic-backdrop-generated-by-ai_188544-9035.jpg?t=st=1721235439~exp=1721239039~hmac=f867019d6ad0faa9115eef09889c3f1e7efdea55f3c9cd79b47744031c572d1e&w=1060" />
+        <img
+            src="https://img.freepik.com/free-photo/vibrant-colors-flow-abstract-wave-pattern-generated-by-ai_188544-9781.jpg?w=1060&t=st=1721235018~exp=1721235618~hmac=6d74d1d8684016c28c650581bbd244c3bb1f81d5b7b445b09926c0b467a6ee3a" />
+        <img
+            src="https://img.freepik.com/free-vector/technology-secure-abstract-background_23-2148335510.jpg?t=st=1721235280~exp=1721238880~hmac=a903ece6eec0a56fe2422c7df0d1111732afb039cb50ab2f73dcd60559243d2e&w=900" />
+        <img
+            src="https://img.freepik.com/free-photo/abstract-colorful-splash-3d-background-generative-ai-background_60438-2494.jpg?w=1060&t=st=1721235084~exp=1721235684~hmac=c6684ee553228818a807596cc63b55e08e4dac117a51df7f14b197af69d6b1e1" />
+    </div>
+    <div class="svg-container">
+        <i class="fa-brands fa-whatsapp wats"></i>
+        <i class="fa-brands fa-facebook fac"></i>
+        <i class="fa-brands fa-instagram insta"></i>
+        <svg id="svgElement" xmlns="http://www.w3.org/2000/svg" width="1600" height="571">
+            <!--<image x="0" y="0" href="https://img.freepik.com/free-photo/glowing-neon-stripes-futuristic-backdrop-generated-by-ai_188544-9035.jpg?t=st=1721235439~exp=1721239039~hmac=f867019d6ad0faa9115eef09889c3f1e7efdea55f3c9cd79b47744031c572d1e&w=1060" height="100%" width="100%" preserveAspectRatio="xMidYMid slice"></image>-->
+            <path id="svgPath"
+                d="M 0 0 L 1600 0 L 1600 571 L 0 571 L 0 0 Z M 45 20 L 1555 20 Q 1580 20 1580 45 L 1580 526 Q 1580 551 1555 551 L 876.317 551 Q 851.317 551 851.317 526 L 851.317 454 Q 851.317 429 826.317 429 L 528 429 Q 503 429 503 404 L 503 332 Q 503 307 478 307 L 405 307 Q 380 307 380 282 L 380 232 Q 380 207 355 207 L 45 207 Q 20 207 20 182 L 20 45 Q 20 20 45 20 Z "
+                fill="white" fill-rule="evenodd"></path>
+        </svg>
+        <button id="next-btn"><i class="fa-solid fa-caret-right"></i></button>
+        <button id="prev-btn"><i class="fa-solid fa-caret-left"></i></button>
+        <div class="theFirstTitleDiv">
+            <h1 class="theFirstTitle">It is about creating something bigger than yourself
+            </h1>
+            <button class="theFirstTitleButt"> ↓ </button>
+        </div>
+        <h1 class="theSecondTitle">Unlocking</h1>
+        <button class="letUsWork"><a href="#whatWeDo">Let's Work <i class="fa-solid fa-arrow-trend-up"></i></a></button>
+        <button class="underLetUsWork"><a href="#caseStudies"> <i class="fa-solid fa-arrow-down"></i> </a></button>
+        <h1 class="theThirdTitle">Digital Excellence</h1>
+    </div>
+    <div class="aboutCardHolder">
+        <div class="aboutCardContainer">
+            <svg id="svgElementAbout" xmlns="http://www.w3.org/2000/svg">
+                <path id="svgPathAbout"
+                    d="M 0 0 L 900 0 L 900 600 L 0 600 L 0 0 Z M 64 30 L 836 30 Q 870 30 870 64 L 870 536 Q 870 570 836 570 L 520 570 Q 486 570 486 536 Q 486 502 452 502 L 380 502 Q 346 502 346 468 Q 346 434 312 434 L 250 434 Q 216 434 216 400 Q 216 366 182 366 L 64 366 Q 30 366 30 332 L 30 64 Q 30 30 64 30 Z"
+                    fill="white">
+                </path>
+            </svg>
+            <h2>About Us</h2>
+            <p>Our journey began with a shared vision among a group of tech enthusiasts, brought together by the idea of
+                revolutionizing the digital landscape.</p>
+        </div>
+        <button class="aboutButton">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+        </button>
+    </div>
+</div>
+<section id="whatWeDo" class="whatWedoSection">
+    <h1>What We Do
+        <span class="whatWeDoSectionH1RightRadius"></span>
+        <span class="whatWeDoSectionH1LeftRadius"></span>
+        <i class="fa-solid fa-turn-down"></i>
+    </h1>
+    <div class="whatweDoSideCard">
+        <button class="buttonBorderTrans">
+            Explore Services
+        </button>
+        <p>Design, develop and run any business software you need.</p>
+    </div>
+    <div class="whatWeDoSlider">
+        <div class="whatWeDoSliderCards">
+            <div class="whatWeDoSliderCard">
+                <i class="fa fa-desktop"></i>
+                <h3>Web Design and Development</h3>
+                <p>We create stunning, responsive websites that combine aesthetics with functionality, ensuring that your online presence leaves a lasting impression.</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+                <i class="fa fa-bullhorn"></i>
+                <h3>Digital Marketing Strategy</h3>
+                <p>Our strategies are designed to enhance your brand's digital footprint through targeted campaigns that drive results and foster growth.</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+                <i class="fa fa-search"></i>
+                <h3>Search Engine Optimization (SEO)</h3>
+                <p>Our SEO services improve your website's visibility, attracting high-quality traffic that converts into loyal customers.</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+                <i class="fa fa-share-alt"></i>
+                <h3>Social Media Management</h3>
+                <p>We create and manage social media strategies that engage your audience and build a strong online community around your brand.</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+                <i class="fa fa-shopping-cart"></i>
+                <h3>E-commerce Solutions</h3>
+                <p>We design and develop e-commerce websites that offer seamless shopping experiences and integrate with payment gateways and inventory management systems.</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+                <i class="fa fa-chart-bar"></i>
+                <h3>Analytics and Reporting</h3>
+                <p>We provide detailed analytics and reporting services that offer insights into your website traffic, campaign performance, and user behavior.</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+                <i class="fa fa-rocket"></i>
+                <h3>Conversion Rate Optimization (CRO)</h3>
+                <p>We analyze user behavior, test different elements, and implement changes to enhance user experience and increase conversions on your site.</p>
+            </div>
+            <!--<div class="whatWeDoSliderCard">
+
+
+                <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+
+                <a href="google.com" draggable="false">Web Design and Development</a>
+
+
+                <p>Transforming visions into compelling digital experiences. Our web design and development services blend creativity with technical expertise, crafting websites that engage your...</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+
+                <img src="{% static 'digital-marketing-strategy-1024x536.png' %}" alt="">
+
+                <a href="google.com">Digital Marketing Strategy</a>
+
+
+                <p>Driving growth through strategic digital campaigns. We specialize in developing customized digital marketing strategies tailored to your business goals. From brand awareness...</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+
+                <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+
+                <a href="google.com">Search Engine Optimization (SEO)</a>
+
+
+                <p>Boosting your online presence organically. Our SEO services ensure your website ranks higher in search engine results, driving targeted traffic and increasing conversions...</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+
+                <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+
+                <a href="google.com">Social Media Management</a>
+
+
+                <p>Enhance your brand's social footprint with our expert management services. From content creation to community engagement, we harness the power of social media to build...</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+
+                <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+
+                <a href="google.com">Pay-Per-Click (PPC) Advertising</a>
+
+
+                <p>Maximize your advertising budget with precision-targeted PPC campaigns. Our experts craft data-driven strategies to deliver instant visibility and measurable results...</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+
+                <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+
+                <a href="google.com">Content Marketing</a>
+
+
+                <p>Captivate and convert your audience with compelling content. Our content marketing strategies are designed to resonate with your target audience, driving engagement...</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+
+                <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+
+                <a href="google.com">E-commerce Solutions</a>
+
+
+                <p>Optimize your online store for success. We specialize in creating seamless e-commerce experiences that enhance usability, drive sales, and foster customer loyalty through...</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+
+                <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+
+                <a href="google.com">Analytics and Reporting</a>
+
+
+                <p>Make informed decisions with actionable insights. Our analytics and reporting services provide valuable data-driven insights into your digital performance, empowering you...</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+
+                <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+
+                <a href="google.com">Conversion Rate Optimization (CRO)</a>
+
+
+                <p>Turn visitors into customers with our CRO expertise. Through rigorous analysis and testing, we identify barriers to conversion and implement targeted improvements to maximize...</p>
+            </div>
+            <div class="whatWeDoSliderCard">
+
+                <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+
+                <a href="google.com">Email Marketing</a>
+
+
+                <p>Nurture leads and drive repeat business with personalized email campaigns. Our email marketing strategies are crafted to deliver relevant content that resonates with your...</p>
+            </div>-->
+        </div>
+    </div>
+</section>
+<section id="caseStudies" class="CaseStudiesSection">
+    <h1>
+        Case Studies
+        <i class="fa-solid fa-turn-down"></i>
+        <span class="caseStudiesSectionH1RightRadius"></span>
+    </h1>
+    <div class="CaseStudiesContainer">
+        <div class="CaseStudiesCards">
+            <div class="CaseStudiesCard">
+                <a href="google.com">
+                    <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder"><span class="caseTag">UI/Ux</span><span
+                                class="caseTag">Development</span></div>
+                        Health and Wellness Startup
+                    </h4>
+                </a>
+                <!--<p>Transforming visions into compelling digital experiences. Our web design and development services blend creativity with technical expertise, crafting websites that engage your...</p>-->
+            </div>
+            <div class="CaseStudiesCard">
+                <a href="google.com">
+                    <img src="{% static 'digital-marketing-strategy-1024x536.png' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder"><span class="caseTag">UI/Ux</span><span
+                                class="caseTag">Development</span></div>
+                        E-commerce Platform Enhancement
+                    </h4>
+                </a>
+                <!--<p>Driving growth through strategic digital campaigns. We specialize in developing customized digital marketing strategies tailored to your business goals. From brand awareness...</p>-->
+            </div>
+            <div class="CaseStudiesCard">
+                <a href="google.com">
+                    <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder"><span class="caseTag">UI/Ux</span><span
+                                class="caseTag">Development</span></div>
+                        Neighborhood Coffee Shop
+                    </h4>
+                </a>
+                <!--<p>Boosting your online presence organically. Our SEO services ensure your website ranks higher in search engine results, driving targeted traffic and increasing conversions...</p>-->
+            </div>
+            <div class="CaseStudiesCard">
+                <a href="google.com">
+                    <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder"><span class="caseTag">UI/Ux</span><span
+                                class="caseTag">Development</span></div>
+                        Boutique Fashion Brand
+                    </h4>
+                </a>
+                <!--<p>Enhance your brand's social footprint with our expert management services. From content creation to community engagement, we harness the power of social media to build...</p>-->
+            </div>
+            <div class="CaseStudiesCard">
+                <a href="google.com">
+                    <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder"><span class="caseTag">UI/Ux</span><span
+                                class="caseTag">Development</span></div>
+                        Corporate Website Revamp
+                    </h4>
+                </a>
+                <!--<p>Maximize your advertising budget with precision-targeted PPC campaigns. Our experts craft data-driven strategies to deliver instant visibility and measurable results...</p>-->
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonialSection">
+    <div class="testimonialContainer">
+        <h1>Look at what our clients say about us <i class="fa-solid fa-turn-down"></i></h1>
+        <div class="underline"></div>
+        <div class="clientTestimonialslider">
+            <div class="tLeftButton"><i class="fa-solid fa-caret-left"></i></div>
+            <div class="clientTestimonialCardsHolder">
+                <div class="clientTestimonialCards">
+                    <div class="clientTestimonialCard active">
+                        <img src="https://img.freepik.com/free-photo/close-up-bearded-tired-man_176420-18785.jpg?t=st=1722122904~exp=1722123504~hmac=38b21edca3fccb26f261f2cf4ee6d3a13433aa61820ce619a904451b508be9cd"
+                            alt="">
+                        <div class="clientTestimonialSPCardContainer">
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span> 5.0
+                            </div>
+                            <blockquote>
+                                <p>"Working with [Your Agency Name] was a game-changer for our business. Their strategic
+                                    insights and
+                                    innovative approach helped us achieve significant growth in a short span of time."
+                                </p>
+                                <footer>Client Name, Company Name</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="clientTestimonialCard">
+                        <img src="https://img.freepik.com/free-photo/portrait-smiling-charming-young-man-grey-t-shirt-standing-against-plain-background_23-2148213406.jpg?w=740&t=st=1722123074~exp=1722123674~hmac=b8b9360cc4c2a8449d70f74e335c7a13a8550411e5eff5489b3426e6e83a7244"
+                            alt="">
+                        <div class="clientTestimonialSPCardContainer">
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span> 5.0
+                            </div>
+                            <blockquote>
+                                <p>"Working with [Your Agency Name] was a game-changer for our business. Their strategic
+                                    insights and
+                                    innovative approach helped us achieve significant growth in a short span of time."
+                                </p>
+                                <footer>Client Name, Company Name</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="clientTestimonialCard">
+                        <img src="https://img.freepik.com/free-photo/portrait-happy-smiley-man_23-2149022615.jpg?t=st=1722123119~exp=1722123719~hmac=3ecc7d3f4eae3919c1241d0a5951a0af6e6508aead33b6691b89742bfbe64d63"
+                            alt="">
+                        <div class="clientTestimonialSPCardContainer">
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span> 5.0
+                            </div>
+                            <blockquote>
+                                <p>"Working with [Your Agency Name] was a game-changer for our business. Their strategic
+                                    insights and
+                                    innovative approach helped us achieve significant growth in a short span of time."
+                                </p>
+                                <footer>Client Name, Company Name</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="clientTestimonialCard">
+                        <img src="https://img.freepik.com/free-photo/serious-man-teacher-with-confident-clever-look-has-beard-mustache-listens-pupil-s-answer-wears-pink-sweater-round-glasses_273609-16686.jpg?w=900&t=st=1722123169~exp=1722123769~hmac=7fb74934d7899ee026b9db02b807ded5c0e6f53d21ff9fc7fac4e1e69d386c5b"
+                            alt="">
+                        <div class="clientTestimonialSPCardContainer">
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span> 5.0
+                            </div>
+                            <blockquote>
+                                <p>"Working with [Your Agency Name] was a game-changer for our business. Their strategic
+                                    insights and
+                                    innovative approach helped us achieve significant growth in a short span of time."
+                                </p>
+                                <footer>Client Name, Company Name</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tRightButton"><i class="fa-solid fa-caret-right"></i></div>
+        </div>
+    </div>
+</section>
+<section class="questionsSection">
+    <div class="questionsContainer">
+        <h1>Frequently Asked Questions <i class="fa-solid fa-turn-down"></i></h1>
+        <div class="underline"></div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Web Design and Development?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    Web design and development refers to the process of creating and maintaining websites. It involves
+                    aspects
+                    such as web page layout, content production, and graphic design.Web design and development refers to
+                    the
+                    process of creating and maintaining websites. It involves aspects such as web page layout, content
+                    production, and graphic design.
+                    Web design and development refers to the process of creating and maintaining websites. It involves
+                    aspects
+                    such as web page layout, content production, and graphic design.Web design and development refers to
+                    the
+                    process of creating and maintaining websites. It involves aspects such as web page layout, content
+                    production, and graphic design.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Digital Marketing Strategy?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    Digital marketing strategy encompasses the planning and execution of online marketing efforts to
+                    achieve
+                    specific business goals. It includes various channels like SEO, PPC, social media, and email
+                    marketing.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Search Engine Optimization (SEO)?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    SEO is the practice of optimizing your website to increase its visibility in search engine results
+                    pages
+                    (SERPs). This is done through techniques like keyword research, content optimization, and link
+                    building.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Social Media Management?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    Social media management involves creating, scheduling, analyzing, and engaging with content posted
+                    on social
+                    media platforms like Facebook, Twitter, and Instagram.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Pay-Per-Click (PPC) Advertising?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    PPC advertising is a model where advertisers pay a fee each time their ad is clicked. It's a way of
+                    buying
+                    visits to your site rather than attempting to earn those visits organically.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Content Marketing?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    Content marketing involves creating and distributing valuable, relevant, and consistent content to
+                    attract
+                    and retain a clearly defined audience. It aims to drive profitable customer action.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What are E-commerce Solutions?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    E-commerce solutions refer to the software and tools that facilitate online selling. They include
+                    features
+                    such as product listings, shopping carts, payment gateways, and order management systems.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Analytics and Reporting in digital marketing?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    Analytics and reporting involve the measurement, analysis, and interpretation of data related to
+                    your
+                    website and marketing campaigns. It helps assess performance and make informed decisions.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Conversion Rate Optimization (CRO)?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    CRO is the process of improving the percentage of website visitors who take a desired action, such
+                    as making
+                    a purchase or filling out a form. It involves testing and optimizing various elements on a webpage.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Email Marketing?</span>
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="faq-answer closeAnswer">
+                    Email marketing is the use of email to promote products or services. It's a powerful tool for
+                    nurturing
+                    leads, engaging with customers, and driving conversions through personalized communication.
+                </div>
+            </div>
+            <!-- Repeat faq-item structure for more items -->
+        </div>
+    </div>
+</section>
+<section class="ctaCaseStudiesSection">
+    <div class="ctaCaseStudiesSectionContainer">
+        <p>Explore how our team has tackled diverse challenges in financial technology, assisting startups and major
+            players in the banking industry</p>
+        <h1>DISCOVER OUR EXPERTISE THROUGH SUCCESSFUL CASE STUDIES</h1>
+        <button class="ctaButton">Let's work <span>&rarr;</span></button>
+    </div>
+</section>
+<section class="requestProjectIdeaSection">
+    <div class="requestProjectIdeaContainer">
+        <h1>Have A Great Idea?</h1>
+        <h2>Tell us about it. <i class="fa-solid fa-turn-down"></i></h2>
+        <div class="clientInfo">
+            <div class="inputHolder">
+                <div class="fullNameInputContainer">
+                    <label for="fullName">Full name</label>
+                    <input type="text" id="fullName " placeholder="Full name">
+
+                </div>
+                <div class="emailInputContainer">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="inputHolder">
+                <div class="companyInputContainer">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" placeholder="Company">
+                </div>
+                <div class="websiteInputContainer">
+                    <label for="website">Website</label>
+                    <input type="text" id="website" placeholder="Website">
+                </div>
+            </div>
+            <div class="inputHolder">
+                <div class="interest">
+                    <label id="selection">I'm interested in</label>
+                    <div class="interestHolder">
+                        <input type="checkbox" id="web-development" name="interest" value="Web Development">
+                        <label for="web-development">Web Development</label>
+                        <input type="checkbox" id="ux-ui-design" name="interest" value="UX/UI Design">
+                        <label for="ux-ui-design">UX/UI Design</label>
+                        <input type="checkbox" id="branding" name="interest" value="Branding">
+                        <label for="branding">Branding</label>
+                        <input type="checkbox" id="app-development" name="interest" value="App Development">
+                        <label for="app-development">App Development</label>
+                        <input type="checkbox" id="motion-design" name="interest" value="Motion Design">
+                        <label for="motion-design">Motion Design</label>
+                    </div>
+                </div>
+                <div class="projectBudget">
+                    <label id="selection" for="projectBudget">Project budget (USD)</label>
+                    <div class="projectBudgetHolder">
+                        <input type="checkbox" id="budget-0-2k" name="interest" value="$0 - 2k">
+                        <label for="budget-0-2k">$0 - 2k</label>
+                        <input type="checkbox" id="budget-2k-5k" name="interest" value="$2k - 5k">
+                        <label for="budget-2k-5k">$2k - 5k</label>
+                        <input type="checkbox" id="budget-5k-10k" name="interest" value="$5k - 10k">
+                        <label for="budget-5k-10k">$5k - 10k</label>
+                        <input type="checkbox" id="budget-10k-20k" name="interest" value="$10k - 20k">
+                        <label for="budget-10k-20k">$10k - 20k</label>
+                        <input type="checkbox" id="budget-20k-plus" name="interest" value="$20k+">
+                        <label for="budget-20k-plus">$20k+</label>
+                    </div>
+                </div>
+            </div>
+            <div class="tellUsMore">
+                <label for="">Tell us more about you.</label>
+                <textarea name="" id="" placeholder="Type more about you"></textarea>
+            </div>
+        </div>
+        <button class="buttonBorderTrans">Submit your request</button>
+    </div>
+</section>
+<script src="{% static 'nav.js' %}" defer></script>
+<script src="{% static 'theScript.js' %}" defer></script>
+<script src="{% static 'scroll.js' %}" defer></script>
+<script src="{% static 'darklight.js' %}" defer></script>
+<script src="{% static 'touchSlider.js' %}" defer></script>
+{% endblock content %}

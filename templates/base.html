@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+{% include "head.html" %}
+
+<body>
+    <div id="loading-screen">
+        <div class="loader">
+            <i class="fas fa-spinner"></i>
+        </div>
+    </div>
+    {% include "nav.html"%}
+    {% block content %}
+    {% endblock content %}
+    {% include "footer.html"%}
+
+</body>
+
+</html>

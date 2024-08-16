@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="blogSection">
+    <div class="blogBanner">
+        <h1>Blog</h1>
+        <p>Stay informed with the latest insights from our full surge thought leaders</p>
+        <div class="searchContainer">
+
+            <input type="text" id="searchBlog " placeholder="Search our blog">
+            <label id="searchBlog">Search</label>
+        </div>
+
+    </div>
+</div>
+<div class="blogTags">
+    <input type="checkbox" id="all" name="interest" value="All">
+    <label for="all">All</label>
+    <input type="checkbox" id="web-development" name="interest" value="Web Development">
+    <label for="web-development">Web Development</label>
+    <input type="checkbox" id="ux-ui-design" name="interest" value="UX/UI Design">
+    <label for="ux-ui-design">UX/UI Design</label>
+    <input type="checkbox" id="branding" name="interest" value="Branding">
+    <label for="branding">Branding</label>
+    <input type="checkbox" id="app-development" name="interest" value="App Development">
+    <label for="app-development">App Development</label>
+    <input type="checkbox" id="motion-design" name="interest" value="Motion Design">
+    <label for="motion-design">Motion Design</label>
+</div>
+<section class="blogsSection">
+    <div class="blogsContainer">
+        <div class="blogsCards">
+            <div class="blogCard">
+                <a href="google.com">
+                    <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder">
+                            <span class="caseTag">UI/Ux</span>
+                            <span class="caseTag">Development</span>
+                        </div>
+                        Health and Wellness Startup
+                    </h4>
+                </a>
+                <!--<p>Transforming visions into compelling digital experiences. Our web design and development services blend creativity with technical expertise, crafting websites that engage your...</p>-->
+            </div>
+            <div class="blogCard">
+                <a href="google.com">
+                    <img src="{% static 'digital-marketing-strategy-1024x536.png' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder">
+                            <span class="caseTag">UI/Ux</span>
+                            <span class="caseTag">Development</span>
+                        </div>
+                        E-commerce Platform Enhancement
+                    </h4>
+                </a>
+                <!--<p>Driving growth through strategic digital campaigns. We specialize in developing customized digital marketing strategies tailored to your business goals. From brand awareness...</p>-->
+            </div>
+            <div class="blogCard">
+                <a href="google.com">
+                    <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder">
+                            <span class="caseTag">UI/Ux</span>
+                            <span class="caseTag">Development</span>
+                        </div>
+                        Neighborhood Coffee Shop
+                    </h4>
+                </a>
+                <!--<p>Boosting your online presence organically. Our SEO services ensure your website ranks higher in search engine results, driving targeted traffic and increasing conversions...</p>-->
+            </div>
+            <div class="blogCard">
+                <a href="google.com">
+                    <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder">
+                            <span class="caseTag">UI/Ux</span>
+                            <span class="caseTag">Development</span>
+                        </div>
+                        Boutique Fashion Brand
+                    </h4>
+                </a>
+                <!--<p>Enhance your brand's social footprint with our expert management services. From content creation to community engagement, we harness the power of social media to build...</p>-->
+            </div>
+            <div class="blogCard">
+                <a href="google.com">
+                    <img src="{% static 'website-development-and-design-1.jpg' %}" alt="">
+                    <h4>
+                        <div class="casetagHolder">
+                            <span class="caseTag">UI/Ux</span>
+                            <span class="caseTag">Development</span>
+                        </div>
+                        Corporate Website Revamp
+                    </h4>
+                </a>
+                <!--<p>Maximize your advertising budget with precision-targeted PPC campaigns. Our experts craft data-driven strategies to deliver instant visibility and measurable results...</p>-->
+            </div>
+        </div>
+    </div>
+</section>
+<script src="{% static 'nav.js' %}" defer></script>
+<script src="{% static 'darklight.js' %}" defer></script>
+{% endblock content %}

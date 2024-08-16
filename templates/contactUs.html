@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="contactUsSection">
+    <div class="letUsTalkHeroHolder">
+        <div class="letUsTalkHeroContainer">
+            <h1>Let's talk</h1>
+            <p>Welcome to pixels,where we bring ideas to life.we are
+                thrilled to hear from you and explore how we can collaborate.reach out to us using the folowing
+                contact details.</p>
+        </div>
+    </div>
+    <div class="letUsTalkForm">
+        <label for="fullName">Full name</label>
+        <input type="text" id="fullName " placeholder="Full name">
+        <label for="companyName">Company Name</label>
+        <input type="text" id="companyName" placeholder="Company name">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Email address">
+        <label for="service">Service Required</label>
+        <select id="service">
+            <option value="0">Web Development</option>
+            <option value="1">UX/UI Design</option>
+            <option value="2">Branding</option>
+            <option value="3">App Development</option>
+            <option value="4">Motion Design</option>
+        </select>
+        <label for="budget">Budget Required</label><select id="budget">
+            <option value="0">$0 - 2k</option>
+            <option value="1">$2k - 5k</option>
+            <option value="2">$5k - 10k</option>
+            <option value="3">$10k - 20k</option>
+            <option value="4">$20k+</option>
+        </select>
+        <label for="details">Deep details about the project</label>
+        <textarea name="" id="details" placeholder="Tell us more about your idea"></textarea>
+        <button class="buttonBorderTrans">Let's Talk <i class="fa-solid fa-arrow-trend-up"></i></button>
+    </div>
+    <div class="underContactUsWork">
+        <div class="underContactUsWork1">
+            <label>Contact us:</label>
+            <span>DrrBow@gmail.com</span>
+        </div>
+        <div class="underContactUsWork2">
+            <label>Connect
+                with us:</label>
+            <span>Follow us on social media to stay updated on our latest
+                projects, news, and industry insights.</span>
+        </div>
+        <div class="underContactUsWorkSocial">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+</div>
+<script src="{% static 'nav.js' %}" defer></script>
+<script src="{% static 'darklight.js' %}" defer></script>
+{% endblock content %}
